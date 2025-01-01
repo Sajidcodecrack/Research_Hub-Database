@@ -3,9 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login page</title>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="loginpage.css">
 </head>
 <body>
-    
+    <div class="background-image"></div>
+    <div class="form-container">
+        <div class="form-box">
+            <div class="title">Login</div>
+            <div class="form-content">
+                <div class="input-group">
+                    <i class="icon fas fa-user"></i>
+                    <input type="text" class="input-field" placeholder="Username">
+                </div>
+                <div class="input-group">
+                    <i class="icon fas fa-lock"></i>
+                    <input type="password" class="input-field" placeholder="Password">
+                </div>
+                <div class="form-footer">
+                    <div class="remember-me">
+                        <input type="checkbox" id="remember">
+                        <label for="remember">Remember Me</label>
+                    </div>
+                    <a href="#" class="forgot-password">Forgot Password?</a>
+                </div>
+                <button class="submit-btn">Login</button>
+            </div>
+            <div class="register">
+                Don't have an account? <a href="#" class="register-link">Register</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add the image dynamically with JavaScript -->
+    <script src="loginpage.js"></script>
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </body>
 </html>
